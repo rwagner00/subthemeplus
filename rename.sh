@@ -1,5 +1,5 @@
 #!/bin/bash
-echo 'Please enter a name for the theme.'
+echo 'Please enter a name for the theme. Underscores only!'
 read NAME
 echo 'Please enter a display name for theme.'
 read DISPLAYNAME
