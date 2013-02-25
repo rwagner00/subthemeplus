@@ -2,7 +2,7 @@
 $gutter: 10px !default;
 $gutter-half: $gutter/2;
 
-.widgrid5, .widgrid10, .widgrid15, .widgrid20, .widgrid25, .widgrid30, .widgrid33, .widgrid35, .widgrid40, .widgrid45, .widgrid50, .widgrid55, .widgrid60, .widgrid65, .widgrid66, .widgrid70, .widgrid75, .widgrid80, .widgrid85, .widgrid90, .widgrid95 {
+.widgrid5, .widgrid10, .widgrid15, .widgrid20, .widgrid25, .widgrid30, .widgrid33, .widgrid35, .widgrid40, .widgrid45, .widgrid50, .widgrid55, .widgrid60, .widgrid65, .widgrid66, .widgrid70, .widgrid75, .widgrid80, .widgrid85, .widgrid90, .widgrid95, .widgrid100 {
   float: left;
   padding-left: $gutter-half;
   padding-right: $gutter-half;
@@ -79,4 +79,5 @@ $gutter-half: $gutter/2;
 }
 .widgrid100 {
   width: 100%;
+  clear: both;
 }
