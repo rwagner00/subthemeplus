@@ -7,7 +7,7 @@ cd ../
 mv subthemeplus $NAME
 cd $NAME
 mv "RENAME.info" $NAME".info"
-sed "s/Omega Test Theme/$DISPLAYNAME/" <$NAME".info" >$NAME".info"
+sed "s/Omega Test Theme/"$DISPLAYNAME/ <$NAME".info" >$NAME".info"
 cd sass
 mv "RENAME-alpha-default.scss" $NAME"-alpha-default.scss"
 mv "RENAME-alpha-default-narrow.scss" $NAME"-alpha-default-narrow.scss"
@@ -16,5 +16,5 @@ mv "RENAME-alpha-default-wide.scss" $NAME"-alpha-default-wide.scss"
 cd ..
 drush en $NAME
 drush vset theme_default $NAME
-vim $NAME".info"
+# vim $NAME".info"
 echo "Rename complete! Enjoy!"
