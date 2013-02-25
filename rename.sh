@@ -1,10 +1,13 @@
 #!/bin/bash
 echo 'Please enter a name for the theme.'
 read NAME
+echo 'Please enter a display name for theme.'
+read DISPLAYNAME
 cd ../
 mv subthemeplus $NAME
 cd $NAME
 mv "RENAME.info" $NAME".info"
+sed s/Omega Test Theme/$DISPLAYNAME/ <$NAME".info" >$NAME".info"
 cd sass
 mv "RENAME-alpha-default.scss" $NAME"-alpha-default.scss"
 mv "RENAME-alpha-default-narrow.scss" $NAME"-alpha-default-narrow.scss"
