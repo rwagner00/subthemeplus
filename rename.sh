@@ -7,7 +7,7 @@ cd ../
 mv subthemeplus $NAME
 cd $NAME
 mv "RENAME.info" $NAME".info"
-sed "s/Omega Test Theme/$DISPLAYNAME/" <$NAME".info" >"placehold.info"
+sed "s/name = \'Omega Test Theme\'/name = \'$DISPLAYNAME\'/" <$NAME".info" >"placehold.info"
 mv placehold.info $NAME".info"
 cd sass
 mv "RENAME-alpha-default.scss" $NAME"-alpha-default.scss"
