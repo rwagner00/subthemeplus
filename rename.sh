@@ -16,6 +16,6 @@ mv "RENAME-alpha-default-normal.scss" $NAME"-alpha-default-normal.scss"
 mv "RENAME-alpha-default-wide.scss" $NAME"-alpha-default-wide.scss"
 cd ..
 drush en $NAME
-drush vset theme_default $NAME
+# drush vset theme_default $NAME
 # vim $NAME".info"
 echo "Rename complete! Enjoy!"
