@@ -1,6 +1,8 @@
 #!/bin/bash
 echo 'Please enter a name for the theme. Underscores only!'
 read NAME
+echo 'Please enter a filename (same as previous, dashes in place of underscores).'
+read FILENAME
 echo 'Please enter a display name for theme.'
 read DISPLAYNAME
 cd ../
@@ -10,18 +12,10 @@ mv "RENAME.info" $NAME".info"
 sed "s/Omega Test Theme/$DISPLAYNAME/" <$NAME".info" >"placehold.info"
 mv placehold.info $NAME".info"
 cd sass
-mv "RENAME-alpha-default.scss" $NAME"-alpha-default.scss"
-mv "RENAME-alpha-default-narrow.scss" $NAME"-alpha-default-narrow.scss"
-mv "RENAME-alpha-default-normal.scss" $NAME"-alpha-default-normal.scss"
-mv "RENAME-alpha-default-wide.scss" $NAME"-alpha-default-wide.scss"
-for file in *;
-do
-if [[ "$file" != "${file//_/-}" ]]
-then
-echo Converting “$file” to “${file// /_}”
-mv “$file” “${file//_/-}”
-fi
-done
+mv "RENAME-alpha-default.scss" $FILENAME"-alpha-default.scss"
+mv "RENAME-alpha-default-narrow.scss" $FILENAME"-alpha-default-narrow.scss"
+mv "RENAME-alpha-default-normal.scss" $FILENAME"-alpha-default-normal.scss"
+mv "RENAME-alpha-default-wide.scss" $FILENAME"-alpha-default-wide.scss"
 cd ..
 drush en $NAME
 drush vset theme_default $NAME
