@@ -1,0 +1,82 @@
+
+$gutter: 10px !default;
+$gutter-half: $gutter/2;
+
+.norgrid5, .norgrid10, .norgrid15, .norgrid20, .norgrid25, .norgrid30, .norgrid33, .norgrid35, .norgrid40, .norgrid45, .norgrid50, .norgrid55, .norgrid60, .norgrid65, .norgrid66, .norgrid70, .norgrid75, .norgrid80, .norgrid85, .norgrid90, .norgrid95 {
+  float: left;
+  padding-left: $gutter-half;
+  padding-right: $gutter-half;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.norgrid5 {
+  width: 5%;
+}
+.norgrid10 {
+  width: 10%;
+}
+.norgrid15 {
+  width: 15%;
+}
+.norgrid20 {
+  width: 20%;
+}
+.norgrid25 {
+  width: 25%;
+}
+.norgrid30 {
+  width: 30%;
+}
+.norgrid33 {
+  width: 33%;
+}
+.norgrid35 {
+  width: 35%;
+}
+.norgrid40 {
+  width: 40%;
+}
+.norgrid45 {
+  width: 45%;
+}
+.norgrid50 {
+  width: 50%;
+}
+.norgrid55 {
+  width: 55%;
+}
+.norgrid60 {
+  width: 60%;
+}
+.norgrid65 {
+  width: 65%;
+}
+.norgrid66 {
+  width: 66%;
+}
+.norgrid70 {
+  width: 70%;
+}
+.norgrid75 {
+  width: 75%;
+}
+.norgrid80 {
+  width: 80%;
+}
+.norgrid85 {
+  width: 85%;
+}
+.norgrid90 {
+  width: 90%;
+}
+.norgrid95 {
+  width: 95%;
+}
+.norgrid100 {
+  width: 100%;
+}

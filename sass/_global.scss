@@ -1,0 +1,82 @@
+
+$gutter: 10px !default;
+$gutter-half: $gutter/2;
+
+.mgrid5, .mgrid10, .mgrid15, .mgrid20, .mgrid25, .mgrid30, .mgrid33, .mgrid35, .mgrid40, .mgrid45, .mgrid50, .mgrid55, .mgrid60, .mgrid65, .mgrid66, .mgrid70, .mgrid75, .mgrid80, .mgrid85, .mgrid90, .mgrid95 {
+  float: left;
+  padding-left: $gutter-half;
+  padding-right: $gutter-half;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.mgrid5 {
+  width: 5%;
+}
+.mgrid10 {
+  width: 10%;
+}
+.mgrid15 {
+  width: 15%;
+}
+.mgrid20 {
+  width: 20%;
+}
+.mgrid25 {
+  width: 25%;
+}
+.mgrid30 {
+  width: 30%;
+}
+.mgrid33 {
+  width: 33%;
+}
+.mgrid35 {
+  width: 35%;
+}
+.mgrid40 {
+  width: 40%;
+}
+.mgrid45 {
+  width: 45%;
+}
+.mgrid50 {
+  width: 50%;
+}
+.mgrid55 {
+  width: 55%;
+}
+.mgrid60 {
+  width: 60%;
+}
+.mgrid65 {
+  width: 65%;
+}
+.mgrid66 {
+  width: 66%;
+}
+.mgrid70 {
+  width: 70%;
+}
+.mgrid75 {
+  width: 75%;
+}
+.mgrid80 {
+  width: 80%;
+}
+.mgrid85 {
+  width: 85%;
+}
+.mgrid90 {
+  width: 90%;
+}
+.mgrid95 {
+  width: 95%;
+}
+.mgrid100 {
+  width: 100%;
+}

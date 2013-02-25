@@ -1,0 +1,82 @@
+
+$gutter: 10px !default;
+$gutter-half: $gutter/2;
+
+.widgrid5, .widgrid10, .widgrid15, .widgrid20, .widgrid25, .widgrid30, .widgrid33, .widgrid35, .widgrid40, .widgrid45, .widgrid50, .widgrid55, .widgrid60, .widgrid65, .widgrid66, .widgrid70, .widgrid75, .widgrid80, .widgrid85, .widgrid90, .widgrid95 {
+  float: left;
+  padding-left: $gutter-half;
+  padding-right: $gutter-half;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.widgrid5 {
+  width: 5%;
+}
+.widgrid10 {
+  width: 10%;
+}
+.widgrid15 {
+  width: 15%;
+}
+.widgrid20 {
+  width: 20%;
+}
+.widgrid25 {
+  width: 25%;
+}
+.widgrid30 {
+  width: 30%;
+}
+.widgrid33 {
+  width: 33%;
+}
+.widgrid35 {
+  width: 35%;
+}
+.widgrid40 {
+  width: 40%;
+}
+.widgrid45 {
+  width: 45%;
+}
+.widgrid50 {
+  width: 50%;
+}
+.widgrid55 {
+  width: 55%;
+}
+.widgrid60 {
+  width: 60%;
+}
+.widgrid65 {
+  width: 65%;
+}
+.widgrid66 {
+  width: 66%;
+}
+.widgrid70 {
+  width: 70%;
+}
+.widgrid75 {
+  width: 75%;
+}
+.widgrid80 {
+  width: 80%;
+}
+.widgrid85 {
+  width: 85%;
+}
+.widgrid90 {
+  width: 90%;
+}
+.widgrid95 {
+  width: 95%;
+}
+.widgrid100 {
+  width: 100%;
+}

@@ -1,0 +1,82 @@
+
+$gutter: 10px !default;
+$gutter-half: $gutter/2;
+
+.nargrid5, .nargrid10, .nargrid15, .nargrid20, .nargrid25, .nargrid30, .nargrid33, .nargrid35, .nargrid40, .nargrid45, .nargrid50, .nargrid55, .nargrid60, .nargrid65, .nargrid66, .nargrid70, .nargrid75, .nargrid80, .nargrid85, .nargrid90, .nargrid95 {
+  float: left;
+  padding-left: $gutter-half;
+  padding-right: $gutter-half;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nargrid5 {
+  width: 5%;
+}
+.nargrid10 {
+  width: 10%;
+}
+.nargrid15 {
+  width: 15%;
+}
+.nargrid20 {
+  width: 20%;
+}
+.nargrid25 {
+  width: 25%;
+}
+.nargrid30 {
+  width: 30%;
+}
+.nargrid33 {
+  width: 33%;
+}
+.nargrid35 {
+  width: 35%;
+}
+.nargrid40 {
+  width: 40%;
+}
+.nargrid45 {
+  width: 45%;
+}
+.nargrid50 {
+  width: 50%;
+}
+.nargrid55 {
+  width: 55%;
+}
+.nargrid60 {
+  width: 60%;
+}
+.nargrid65 {
+  width: 65%;
+}
+.nargrid66 {
+  width: 66%;
+}
+.nargrid70 {
+  width: 70%;
+}
+.nargrid75 {
+  width: 75%;
+}
+.nargrid80 {
+  width: 80%;
+}
+.nargrid85 {
+  width: 85%;
+}
+.nargrid90 {
+  width: 90%;
+}
+.nargrid95 {
+  width: 95%;
+}
+.nargrid100 {
+  width: 100%;
+}
