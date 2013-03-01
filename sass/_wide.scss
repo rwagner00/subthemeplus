@@ -6,6 +6,8 @@ $gutter-half: $gutter/2;
   float: left;
   padding-left: $gutter-half;
   padding-right: $gutter-half;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
