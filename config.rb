@@ -18,8 +18,8 @@ firesass = true
 
 # Location of the theme's resources.
 css_dir         = "css"
-sass_dir        = "sass"
-extensions_dir  = "sass-extensions"
+sass_dir        = "scss"
+extensions_dir  = "scss-extensions"
 images_dir      = "images"
 javascripts_dir = "js"
 
