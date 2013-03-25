@@ -11,7 +11,7 @@ cd $NAME
 mv "RENAME.info" $NAME".info"
 sed "s/Omega Test Theme/$DISPLAYNAME/" <$NAME".info" >"placehold.info"
 mv placehold.info $NAME".info"
-cd sass
+cd scss
 mv "RENAME-alpha-default.scss" $FILENAME"-alpha-default.scss"
 mv "RENAME-alpha-default-narrow.scss" $FILENAME"-alpha-default-narrow.scss"
 mv "RENAME-alpha-default-normal.scss" $FILENAME"-alpha-default-normal.scss"
